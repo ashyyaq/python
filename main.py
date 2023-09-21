@@ -1,7 +1,9 @@
-def rectangle_area(width, height):
-    area = width * height
-    return area
-width = float(input("Введите ширину: "))
-height = float(input("Введите высоту: "))
-result = rectangle_area(width, height)
-print ("Результат: ", result)
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
+num = int(input("Введите число: "))
+result = is_even(num)
+print(result)
